@@ -40,7 +40,7 @@ Follow the prompt and answer each question to generate a markdown file. Your REA
 
 ## Questions
 
-For any questions regarding this project, please open an issue in this repository or [contact me.](https://github.com/ftab)
+For any questions regarding this project, please open an issue in this repository or [contact me.](https://github.com/fftab)
 
 ## License
 
