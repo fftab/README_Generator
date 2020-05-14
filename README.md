@@ -36,7 +36,7 @@ Follow the prompt and answer each question to generate a markdown file. Your REA
 
 ## Video
 
-[This video demonstrates the function of the README Generator.]()
+[This video demonstrates the function of the README Generator.](https://youtu.be/7490fMVjKzY)
 
 ## Questions
 

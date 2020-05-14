@@ -1,12 +1,11 @@
-function generateMarkdown(data) {
-  return `
-# ${data.ProjectTitle}
+
+# Homework 09: README Generator
 
 [![star this repo](https://githubbadges.com/star.svg?user=fftab&repo=READMEGenerator&style=default)](https://github.com/fftab/READMEGenerator)
 [![fork this repo](https://githubbadges.com/fork.svg?user=fftab&repo=READMEGenerator&style=default)](https://github.com/fftab/READMEGenerator/fork)
 ## Description
 
-${data.ProjectDescription}
+This project uses Inquirer NPM and an Axios API call to generate a markdown file.
 
 ## Table of Contents
 
@@ -25,36 +24,29 @@ ${data.ProjectDescription}
 ## Installation
 
 To install necessary dependencies, run the following command:
-
-${data.Installation}
+npm i
 
 ## Usage
 
-${data.Usage}
+NPM INSTALL FIRST!
 
 ## License
 
-${data.License}
+None
 
 ## Contributing
 
-${data.Contributing}
+Reach out to me on GitHub @fftab about contributions.
 
 ## Testing
 
 To run tests, run the following command:
-
-${data.Tests}
+npm test
 
 ## Questions
 
-<img src="${data.avatar_url}" alt="github avatar" style="border-radius: 16px" width="30"/>
+<img src="https://avatars2.githubusercontent.com/u/59068267?v=4" alt="github avatar" style="border-radius: 16px" width="30"/>
 
 If you have any questions about the repo, please contact
 
-${data.GitHub} @ ${data.email}
-`;
-}
-
-// Set File Up for Export
-module.exports = generateMarkdown;
+fftab @ null
