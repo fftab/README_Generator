@@ -1,11 +1,11 @@
 
-# Homework 09: README Generator
+# Fitness Tracker
 
 [![star this repo](https://githubbadges.com/star.svg?user=fftab&repo=READMEGenerator&style=default)](https://github.com/fftab/READMEGenerator)
 [![fork this repo](https://githubbadges.com/fork.svg?user=fftab&repo=READMEGenerator&style=default)](https://github.com/fftab/READMEGenerator/fork)
 ## Description
 
-This project uses Inquirer NPM and an Axios API call to generate a markdown file.
+This Fitness Tracker is an application in which I practiced creating a NoSQL database using Mongoose and schema. I also practiced creating API and HTML routes.
 
 ## Table of Contents
 
@@ -24,23 +24,25 @@ This project uses Inquirer NPM and an Axios API call to generate a markdown file
 ## Installation
 
 To install necessary dependencies, run the following command:
+
 npm i
 
 ## Usage
 
-NPM INSTALL FIRST!
+Follow this README for information on the project.
 
 ## License
 
-None
+MIT
 
 ## Contributing
 
-Reach out to me on GitHub @fftab about contributions.
+Contribution are not being accepted at this time. For any questions about the repo, contact me @fftab on GitHub.
 
 ## Testing
 
 To run tests, run the following command:
+
 npm test
 
 ## Questions

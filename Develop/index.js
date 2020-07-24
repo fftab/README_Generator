@@ -59,7 +59,7 @@ const questions = [
         // Test Prompt
         type: "input",
         name: "Tests",
-        message: "What commands shouold be run to run test?",
+        message: "What commands should be used to run test?",
         default: "npm test"
     }
 ];
