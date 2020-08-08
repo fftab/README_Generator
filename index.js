@@ -21,7 +21,7 @@ const questions = [
         // Project Title Prompt
         type: "input",
         name: "ProjectTitle",
-        message: "What is your project title?"
+        message: "What is the project title?"
     },
     {
         // Project Description Prompt
@@ -33,7 +33,7 @@ const questions = [
         // License Choice Prompt
         type: "list",
         name: "License",
-        message: "What kind of license should your project have?",
+        message: "What license applies to your project?",
         choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
     },
     {
@@ -80,7 +80,7 @@ function init() {
         // THEN grab data object and perform anonymous arrow function
         .then(({data}) => {
             // ======================> spread allows for responses from api and for data from inquirer
-            writeToFile("README.md", genMarkDown({...responses, ...data}));
+            writeToFile("genREADME.md", genMarkDown({...responses, ...data}));
         });  
     });
 }
