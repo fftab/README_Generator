@@ -34,7 +34,7 @@ const questions = [
         type: "list",
         name: "License",
         message: "What license applies to your project?",
-        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
+        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "Creative Commons", "None"]
     },
     {
         // Installation

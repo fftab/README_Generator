@@ -2,7 +2,7 @@ function generateMarkdown(data) {
   return `
 # ${data.ProjectTitle}
 
-![built-with-love](https://forthebadge.com/images/badges/built-with-love.svg)
+![built-with-love](https://forthebadge.com/images/badges/built-with-love.svg) by <img src="${data.avatar_url}" alt="github avatar" style="border-radius: 16px" width="30"/>
 
 ## Description
 
@@ -29,6 +29,8 @@ To install necessary dependencies, run the following command:
 ${data.Installation}
 
 ## Usage
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 ${data.Usage}
 
@@ -191,8 +193,6 @@ To run tests, run the following command:
 ${data.Tests}
 
 ## Questions
-
-<img src="${data.avatar_url}" alt="github avatar" style="border-radius: 16px" width="30"/>
 
 If you have any questions about the repo, please contact
 
